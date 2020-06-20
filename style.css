@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Notable', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+}
+
+.diamon {
+    flex: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.diamon i {
+    color: aqua;
+    font-size: 20em;
+    text-shadow: 20px 20px 100em aqua;
+}
+
+.text {
+    flex: 1;
+}
+
+.text p {
+    font-size: 1em;
+    color: silver;
+    text-shadow: #ccc 1px 0 10px;
+    letter-spacing: .3em;
+}
